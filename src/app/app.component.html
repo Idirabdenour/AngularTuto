@@ -7,8 +7,16 @@
       <li routerLinkActive="active">
         <a routerLink="appareil">Appareils</a>
       </li>
+      <li routerLinkActive="active">
+          <a routerLink="edit">Nouvel appareil</a>
+      </li>
+      <li routerLinkActive="active">
+          <a routerLink="users">Utilisateurs</a>
+      </li>
     </ul>
-    <div class="container">
+    <div class="navbar-rigth">
+      <p>Vous êtes connecté depuis {{secondes}} secondes !</p>
+    </div>
       <div class="row">
         <router-outlet></router-outlet>
       </div>
